@@ -1,0 +1,26 @@
+;elemental topology file. Parameters from gromacs 99sb file
+
+[ atomtypes ]
+; name      at.num  mass     charge ptype  sigma      epsilon
+H             H       0.0000  0.0000  A   1.06908e-01  6.56888e-02
+C             C       0.0000  0.0000  A   3.39967e-01  3.59824e-01
+N             N       0.0000  0.0000  A   3.25000e-01  7.11280e-01
+O             O       0.0000  0.0000  A   2.95992e-01  8.78640e-01
+S             S       0.0000  0.0000  A   3.56359e-01  1.04600e+00
+P             P       0.0000  0.0000  A   3.74177e-01  8.36800e-01
+Cl            Cl      0.0000  0.0000  A   4.40104e-01  4.18400e-01
+
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB      massB
+     1          H      1    ELM      H      1     0.0000      1.008   ; qtot 1
+     1          C      1    ELM      C      2     0.0000      12.01   ; qtot 1
+     1          N      1    ELM      N      3     0.0000      14.01   ; qtot 1
+     1          O      1    ELM      O      4     0.0000         16   ; qtot 1
+     1          S      1    ELM      S      5     0.0000      32.06   ; qtot 1
+     1          P      1    ELM      P      6     0.0000      30.97   ; qtot 1
+     1         Cl      1    ELM     Cl      7     0.0000      35.45   ; qtot 1
+
+
+
+
